@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css" integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" crossorigin="anonymous">
+
+    <title>Seletores Hierárquicos</title>
+</head>
+    <body>
+        <div class="div1">
+            <h2>H2 filho de DIV1</h2>
+            <p>P filho de DIV1 <span>filho de P</span></p>
+            <span>Filho direito de DIV1</span>
+        </div>
+        
+            <h2>H2 fora de DIV1</h2>
+            <p class="p1">P1 fora de div1</p>
+            <p>P2 fora de div1</p>
+            <p>P2 fora de div1</p>
+        
+    
+
+
+        
+    <script src="jquery.min.js"></script>
+    <script>
+        
+        $('span').hide().delay(1000).fadeIn().css('color','green')
+        $('.div1').hide().fadeIn(800).css({'color':'red',background: '#ccc'})
+        $('.div1 h2').hide().fadeIn(800).css({'color':'red','font-size':'50px'})
+        $('p').css('color','blue') 
+        $('.div1 > span').css('color','red')
+        $('.p1 + p').css({'font-size':'25px'})
+        $('.p1 ~ p').css({color:'red'})
+        
+    </script>
+  </body>
+</html>
