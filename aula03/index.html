@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css" integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" crossorigin="anonymous">
+
+    <title>Lógica de Desenvolvimento em jQuery</title>
+  </head>
+  <body>
+    <h1>Desenvolvedor Rkbno</h1>
+
+    <a href="#">link1</a>
+    <a href="#" class="link2">link2</a>
+    <a href="#" id="link3">link3</a>
+
+    
+    <script src="jquery.min.js"></script>
+    <script>
+        $(document).ready(function (){
+
+            $('*').css('padding','5px')
+            $('h1')
+            .css('color','blue')
+            .delay(1000)
+            .hide()
+            .fadeIn('slow')
+            .click(function(){
+                $('body').css('background','red')
+                $('h1').css('color','white' )
+                $('a').css('text-decoration','none').css('color','black').css('display','block')
+                $('.link2').css('color','white')
+                $('#link3').css('color','blue')
+
+            })
+        });
+    </script>
+  </body>
+</html>
