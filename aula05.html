@@ -9,15 +9,19 @@
     <title>Eventos no Navegador</title>
 </head>
     <body>
-            
+      <img src="src/img/coruja.png"  alt="coruja">
     
 
 
         
-    <script src="jquery.min.js"></script>
+    <script src="src/js/jquery.min.js"></script>
+    <script src="src/js/aula05/aula05.js"></script>
     <script>
-        
-        
+      $(function(){
+    $(window).scrol(function(){
+        $('img').fadeOut('1000')
+    })
+});
     </script>
   </body>
 </html>
