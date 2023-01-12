@@ -1,0 +1,28 @@
+body{font: 14px;}
+
+.ex1{
+    width: 460px;
+    padding: 20px;
+    background: rgb(55, 142, 255);
+    margin: 0 auto;
+    text-align: center;
+    color: 000;
+}
+
+label {
+    display: block;
+    margin:10px 0;
+    padding: 10px;
+    background: #f8f8ff;
+
+}
+
+input, textarea {
+    padding: 5px;
+    width: 450px;
+
+}
+
+button {
+    width: 465px;
+}
