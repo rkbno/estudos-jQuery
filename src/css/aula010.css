@@ -1,0 +1,39 @@
+body{font: 14px;}
+
+.ex1, .ex2{
+    width: 460px;
+    padding: 20px;
+    background: rgb(55, 142, 255);
+    margin: 0 auto;
+    text-align: center;
+    color: 000;
+    margin-top: 10px;
+}
+
+p, button {
+    width: 100%;
+    padding: 5px;
+    background: #000;
+    margin: 0 auto;
+    text-align: center;
+    color: #fff;
+    border: 5px solid #ccc;
+    margin-top: 10px;
+}
+
+input {
+    width: 100%;
+    max-width: 480px;
+    padding: 5px;
+    background: #000;
+    margin-left: 402px;
+    
+    color: #fff;
+    border: 5px solid #ccc;
+    margin-top: 10px;
+}
+
+.ev4 {
+    text-align: center;
+}
+
